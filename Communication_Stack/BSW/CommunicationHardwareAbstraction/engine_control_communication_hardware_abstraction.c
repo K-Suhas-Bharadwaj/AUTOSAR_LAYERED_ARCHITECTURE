@@ -2,6 +2,7 @@
 
 void initializeCommunicationHardware() {
     // Initialize communication hardware peripherals
+    initializeUART();
 }
 
 void sendDataOverCommunicationInterface(void *data, size_t size) {
