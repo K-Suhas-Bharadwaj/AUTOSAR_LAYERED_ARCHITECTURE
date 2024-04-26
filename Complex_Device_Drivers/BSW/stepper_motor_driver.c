@@ -1,5 +1,3 @@
-// stepper_motor_driver.c
-
 #include "stepper_motor_driver.h"
 #include "gpio.h" // Include GPIO header for pin control
 

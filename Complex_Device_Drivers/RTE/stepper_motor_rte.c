@@ -1,5 +1,3 @@
-// rte.c
-
 #include "stepper_motor_rte.h"
 #include "stepper_motor_driver.h" // Include stepper motor driver header
 
