@@ -1,4 +1,4 @@
-#include "Stepper_Motor_RTE.h"
+#include "stepper_motor_rte.h"
 
 int main() {
     initialize_system(); // Initialize system services provided by RTE
