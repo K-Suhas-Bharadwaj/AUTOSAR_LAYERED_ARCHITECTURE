@@ -51,6 +51,8 @@ int main() {
     // Main engine control loop
     while (1) {
         // Read sensor data (e.g., throttle position, engine speed)
+        // Sensor Data should be read using IO Drivers through IO Hardware Abstraction Layer
+        // readThrottlePositionSensor() and readEngineSpeedSensor() are defined in IO Hardware Abstraction Layer
         float throttlePosition = readThrottlePositionSensor();
         float engineSpeed = readEngineSpeedSensor();
 
