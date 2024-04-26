@@ -1,4 +1,4 @@
-#include "engine_control_communication_hardware_abstraction.c"
+#include "engine_control_communication_hardware_abstraction.h"
 
 void initializeCommunicationHardware() {
     // Initialize communication hardware peripherals
