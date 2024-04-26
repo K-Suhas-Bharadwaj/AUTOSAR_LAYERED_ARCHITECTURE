@@ -1,6 +1,4 @@
-// RTE.c
-
-#include "RTE.h"
+#include "engine_control_rte.h"
 #include "CommunicationServiceLayer.h"
 
 void Engine_Control_RTE_initialize() {
