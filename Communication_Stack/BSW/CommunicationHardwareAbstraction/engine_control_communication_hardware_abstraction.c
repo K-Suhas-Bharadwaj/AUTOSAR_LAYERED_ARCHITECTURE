@@ -7,4 +7,5 @@ void initializeCommunicationHardware() {
 void sendDataOverCommunicationInterface(void *data, size_t size) {
     // Send data over communication interface
     // Example: UART, CAN, SPI, etc.
+    sendOverUART(data, size);
 }
